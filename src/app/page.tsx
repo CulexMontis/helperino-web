@@ -40,14 +40,14 @@ export default function Home() {
           className="text-xl sm:text-2xl font-medium mb-4 animate-fade-in-up animation-delay-100"
           style={{ color: "var(--text-primary)" }}
         >
-          Desktop test runner for Playwright
+          Skrivbordsapp för Playwright-testning
         </p>
         <p
           className="max-w-lg text-base mb-10 animate-fade-in-up animation-delay-200"
           style={{ color: "var(--text-secondary)", lineHeight: 1.7 }}
         >
-          Run, record, and manage Playwright tests from a clean desktop app.
-          Built-in Chromium, suite management, and AI agent integration included.
+          Kör, spela in och hantera Playwright-tester i en ren skrivbordsapp.
+          Inbyggd Chromium, svithantering och AI-agentintegration ingår.
         </p>
         <div className="flex flex-col gap-4 animate-fade-in-up animation-delay-300">
           <div className="flex flex-col sm:flex-row gap-3">
@@ -86,7 +86,7 @@ export default function Home() {
             className="inline-flex items-center justify-center gap-2 text-sm transition-colors hover:opacity-70"
             style={{ color: "var(--text-tertiary)" }}
           >
-            All downloads and release notes
+            Alla nedladdningar och versionsinfo
           </a>
         </div>
       </section>
@@ -98,7 +98,7 @@ export default function Home() {
             className="text-3xl font-bold text-center mb-12 animate-fade-in-up"
             style={{ color: "var(--text-primary)" }}
           >
-            Everything you need to test with confidence
+            Allt du behöver för att testa med trygghet
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <FeatureCard
@@ -117,8 +117,8 @@ export default function Home() {
                   <polygon points="5 3 19 12 5 21 5 3" />
                 </svg>
               }
-              title="Visual Test Runner"
-              description="Run and monitor Playwright tests with a clean, intuitive interface. See results in real time with screenshots and video."
+              title="Visuell testkörare"
+              description="Kör och övervaka Playwright-tester med ett rent, intuitivt gränssnitt. Se resultat i realtid med skärmbilder och video."
             />
             <FeatureCard
               delay="animation-delay-200"
@@ -140,8 +140,8 @@ export default function Home() {
                   <line x1="10.88" y1="21.94" x2="15.46" y2="14" />
                 </svg>
               }
-              title="Built-in Browser"
-              description="Bundled Chromium browser, no separate install needed. Just download and start testing right away."
+              title="Inbyggd webbläsare"
+              description="Medföljande Chromium-webbläsare, ingen separat installation behövs. Ladda ner och börja testa direkt."
             />
             <FeatureCard
               delay="animation-delay-300"
@@ -161,8 +161,8 @@ export default function Home() {
                   <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
                 </svg>
               }
-              title="Test Recorder"
-              description="Record browser interactions and generate Playwright test scripts automatically. Point, click, done."
+              title="Testinspelning"
+              description="Spela in webbläsarinteraktioner och generera Playwright-testskript automatiskt. Peka, klicka, klart."
             />
             <FeatureCard
               delay="animation-delay-100"
@@ -183,8 +183,8 @@ export default function Home() {
                   <path d="M7 8h2M11 8h2M15 8h2M7 11h2M11 11h6" />
                 </svg>
               }
-              title="MCP Server"
-              description="AI agent integration via Model Context Protocol. Let Claude and other AI tools interact with your test suite."
+              title="MCP-server"
+              description="AI-agentintegration via Model Context Protocol. Låt Claude och andra AI-verktyg interagera med dina tester."
             />
             <FeatureCard
               delay="animation-delay-200"
@@ -204,8 +204,8 @@ export default function Home() {
                   <line x1="12" y1="11" x2="12" y2="17" />
                 </svg>
               }
-              title="Suite Management"
-              description="Organize tests into suites with tags, filters, and run settings. Group by project, feature, or environment."
+              title="Svithantering"
+              description="Organisera tester i sviter med taggar, filter och körinställningar. Gruppera efter projekt, funktion eller miljö."
             />
             <FeatureCard
               delay="animation-delay-300"
@@ -225,8 +225,8 @@ export default function Home() {
                   <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
                 </svg>
               }
-              title="Multi-Environment"
-              description="Run tests against local, preview, or production. Tag-based filtering ensures the right tests run in each environment."
+              title="Flera miljöer"
+              description="Kör tester mot lokal, preview eller produktion. Taggbaserad filtrering säkerställer att rätt tester körs i varje miljö."
             />
           </div>
         </div>
@@ -238,7 +238,7 @@ export default function Home() {
         style={{ color: "var(--text-tertiary)" }}
       >
         <p>
-          Built by{" "}
+          Byggd av{" "}
           <a
             href="https://github.com/CulexMontis"
             target="_blank"
