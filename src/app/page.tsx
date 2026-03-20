@@ -35,7 +35,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 animate-fade-in-up animation-delay-300">
           <div className="flex flex-col sm:flex-row gap-3">
             <a
-              href="https://github.com/CulexMontis/helperino/releases/latest/download/Helperino-1.0.1-arm64.dmg"
+              href="https://github.com/CulexMontis/helperino-web/releases/latest/download/Helperino-1.0.1-arm64.dmg"
               className="btn-download inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-white font-semibold text-sm transition-all hover:scale-[1.03] active:scale-[0.98]"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -44,7 +44,7 @@ export default function Home() {
               macOS (Apple Silicon)
             </a>
             <a
-              href="https://github.com/CulexMontis/helperino/releases/latest/download/Helperino-1.0.1.dmg"
+              href="https://github.com/CulexMontis/helperino-web/releases/latest/download/Helperino-1.0.1.dmg"
               className="btn-download inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-white font-semibold text-sm transition-all hover:scale-[1.03] active:scale-[0.98]"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -53,7 +53,7 @@ export default function Home() {
               macOS (Intel)
             </a>
             <a
-              href="https://github.com/CulexMontis/helperino/releases/latest/download/Helperino.Setup.1.0.1.exe"
+              href="https://github.com/CulexMontis/helperino-web/releases/latest/download/Helperino.Setup.1.0.1.exe"
               className="btn-download inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-white font-semibold text-sm transition-all hover:scale-[1.03] active:scale-[0.98]"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
