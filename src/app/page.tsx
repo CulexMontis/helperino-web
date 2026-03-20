@@ -253,7 +253,8 @@ export default function Home() {
             style={{ color: "var(--text-secondary)" }}
           >
             CulexMontis
-          </a>
+          </a>{" "}
+          :)
         </p>
       </footer>
     </div>
